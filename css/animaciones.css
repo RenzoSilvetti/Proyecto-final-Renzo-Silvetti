@@ -1,0 +1,43 @@
+main div article img{
+	overflow: hidden;
+	position: relative;
+	box-shadow: 0px 3PX 4px black;
+	cursor: pointer;
+	transition: ;
+
+
+
+	;
+	
+
+}
+
+main div article h2{
+	text-shadow: 3px 3px 3px black;
+	;
+	;
+}
+
+
+
+.animationScale:hover{
+	;
+	transform: scale(1.1);
+	transition: transform 2s;
+	
+	box-shadow: 0px 5PX 8px black
+}
+
+.contenedorImg{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
