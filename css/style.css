@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62, 5%;
+  font-size: 62,5%;
 }
 
 body {
@@ -44,6 +44,9 @@ h1 {
 @media screen and (min-width: 992px) {
   .imgForm {
     padding-left: 20px;
+    display: flex;
+    align-self:center ;
+    justify-content: center;
   }
 }
 main div article img {
@@ -78,5 +81,25 @@ article figure div h2 {
 article figure p:hover {
   text-decoration: underline;
 }
+
+
+
+/*a scss*/
+
+
+ .contactoDatos{
+  display: flex;
+  align-self:center ;
+  justify-content: center;
+
+ 
+ } 
+
+
+
+main article ul li{
+  list-style: none;
+}
+
 
 /*# sourceMappingURL=style.css.map */
