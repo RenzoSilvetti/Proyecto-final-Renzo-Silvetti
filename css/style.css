@@ -3,103 +3,93 @@
   font-family: "Source+Sans+Pro", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-  font-size: 62,5%;
-}
+  font-size: 62,5%; }
 
 body {
   background-image: url(../img/fondo.png);
   background-attachment: fixed;
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
-/*INICIA NUEVO CSS*/
 nav {
-  background: rgba(237, 170, 37, 0.9);
-}
+  background: #edaa25; }
 
 .bgLightBlue {
-  background: rgba(188, 240, 247, 0.9);
-}
+  background: #bcf0ed; }
 
 .bgBlack {
-  background: rgba(1, 2, 33, 0.9);
-}
-
-h1 {
-  font-family: "Source+Sans+Pro";
-}
+  background: #010221; }
 
 .bgDarkBlue {
-  background: rgba(49, 98, 140, 0.9);
-}
-
-.fontWhite {
-  color: white;
-}
+  background: #31628c; }
 
 @media screen and (min-width: 992px) {
   .imgForm {
-    padding-left: 20px;
     display: flex;
-    align-self:center ;
     justify-content: center;
-  }
-}
+    align-self: center;
+    padding-left: 20px; } }
+
 main div article img {
   overflow: auto;
   position: relative;
   box-shadow: 0px 3PX 4px black;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .animationScale:hover {
   transform: scale(1.1);
   transition: transform 2s;
-  box-shadow: 0px 5PX 8px black;
-}
+  box-shadow: 0px 5PX 8px black; }
 
 .contenedorImg {
   position: relative;
   display: inline-flex;
-  text-align: center;
-}
+  text-align: center; }
 
 .centrado {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
+
+main article ul li {
+  list-style: none; }
 
 article figure div h2 {
-  text-shadow: 3px 3px 3px rgb(0, 0, 0);
-}
+  text-shadow: 3px 3px 3px black; }
+
 article figure p:hover {
   text-decoration: underline;
-}
+  cursor: default; }
 
+.btnForm, .btnAnimated {
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: #edaa25;
+  color: #FFFFFF; }
+  .btnForm:hover, .btnAnimated:hover {
+    color: black;
+    cursor: pointer; }
 
+.btnAnimated:hover {
+  transform: scale(1.08);
+  transition: transform 2s;
+  box-shadow: 0px 5px 8px black; }
 
-/*a scss*/
+h1 {
+  font-family: "Source+Sans+Pro";
+  line-height: 1em;
+  color: white; }
 
+h2 {
+  font-family: "Roboto";
+  line-height: 1em;
+  color: white; }
 
- .contactoDatos{
+.contactoDatos {
   display: flex;
-  align-self:center ;
   justify-content: center;
-
- 
- } 
-
-
-
-main article ul li{
-  list-style: none;
-}
-
-
-/*# sourceMappingURL=style.css.map */
+  align-self: center; }
