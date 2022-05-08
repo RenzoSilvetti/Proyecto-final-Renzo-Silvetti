@@ -54,8 +54,46 @@ main div article img {
   left: 50%;
   transform: translate(-50%, -50%); }
 
+  .contacto{
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+
 main article ul li {
   list-style: none; }
+
+div div div p {
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  text-shadow: 2px 1px 1px black;
+  text-transform: uppercase; }
+
+div div div img {
+  filter: brightness(0.9); }
+
+div div div div figcaption p {
+  text-align: center;
+  color: #fff;
+  font-size: 1em;
+  text-shadow: 2px 1px 1px black;
+  text-transform: uppercase; }
+
+@media screen and (min-width: 992px) {
+  div div div p {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 1px 1px black;
+    text-transform: uppercase; }
+  div div div img {
+    filter: brightness(0.9); }
+  div div div div figcaption p {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 1px 1px black;
+    text-transform: uppercase; } }
 
 article figure div h2 {
   text-shadow: 3px 3px 3px black; }
@@ -93,3 +131,18 @@ h2 {
   display: flex;
   justify-content: center;
   align-self: center; }
+
+.frameM {
+  display: hidden; }
+
+.mapResponsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+  .mapResponsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }

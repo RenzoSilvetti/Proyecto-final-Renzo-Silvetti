@@ -27,7 +27,8 @@ $paleta:(
   'uno': #edaa25,
   'dos':#010221,
   'tres':#bcf0ed,
-  'cuatro': #31628c);
+  'cuatro': #31628c,
+  'cinco':#fff);
 
 
 
@@ -106,9 +107,68 @@ main article ul li{
         
             
        
+div{
+  div{
+    div{
+      p{text-align: center;
+      color:map-get($map:$paleta,$key:'cinco'); 
+      font-size: 1em;
+      text-shadow:2px 1px 1px rgb(0,0,0);
+      text-transform: uppercase;}
+
+      img{
+        filter:brightness(0.9)
+      }
+      div{
+        figcaption{
+          p{
+            text-align: center;
+            color:map-get($map:$paleta,$key:'cinco');
+            font-size: 1em; 
+            text-shadow:2px 1px 1px rgb(0,0,0);
+            text-transform: uppercase;
 
 
 
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px){
+  div{
+    div{
+      div{
+      
+        p{text-align: center;
+            color:map-get($map:$paleta,$key:'cinco');
+            font-size: 2em; 
+            text-shadow:2px 1px 1px rgb(0,0,0);
+            text-transform: uppercase;}
+
+        img{
+        filter:brightness(0.9)
+      }
+      div{
+        figcaption{
+          p{
+            text-align: center;
+            color:map-get($map:$paleta,$key:'cinco');
+            font-size: 2em; 
+            text-shadow:2px 1px 1px rgb(0,0,0);
+            text-transform: uppercase;
+
+
+
+          }
+        }
+      }
+    }
+  }
+}
+}
 
 article{
   figure{
@@ -170,11 +230,33 @@ h2{
  } 
 
 
+.frameS{
 
-
+}
 
   
+.frameM{
+  display: hidden,}
+  
+
+.mapResponsive{
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  iframe{
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    position:absolute;}
+  } 
+ 
 
 
+
+
+
+   
   
 
